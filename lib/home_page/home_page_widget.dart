@@ -148,7 +148,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Row(
-                                mainAxisSize: MainAxisSize.min,
+                                mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Expanded(
