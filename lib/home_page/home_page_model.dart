@@ -24,7 +24,9 @@ class HomePageModel extends FlutterFlowModel {
     productsModel = createModel(context, () => ProductsModel());
   }
 
-  void dispose() {}
+  void dispose() {
+    productsModel.dispose();
+  }
 
   /// Additional helper methods are added here.
 

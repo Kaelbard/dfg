@@ -31,7 +31,7 @@ class _NavbarWidgetState extends State<NavbarWidget> {
 
   @override
   void dispose() {
-    _model.dispose();
+    _model.maybeDispose();
 
     super.dispose();
   }

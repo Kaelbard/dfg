@@ -25,9 +25,19 @@ class DfgCall {
     );
   }
 
+  static dynamic titulo(dynamic response) => getJsonField(
+        response,
+        r'''$[:].title''',
+        true,
+      );
   static dynamic price(dynamic response) => getJsonField(
         response,
         r'''$[:].price''',
+        true,
+      );
+  static dynamic imagemFilename(dynamic response) => getJsonField(
+        response,
+        r'''$[:].thumbFilename''',
         true,
       );
   static dynamic imagem(dynamic response) => getJsonField(
@@ -35,9 +45,9 @@ class DfgCall {
         r'''$[:].thumbnailLink''',
         true,
       );
-  static dynamic titulo(dynamic response) => getJsonField(
+  static dynamic currency(dynamic response) => getJsonField(
         response,
-        r'''$[:].title''',
+        r'''$[:].currencySymbol''',
         true,
       );
 }
