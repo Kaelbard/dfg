@@ -2,7 +2,6 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'navbar_model.dart';
@@ -72,7 +71,7 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                       icon: Icon(
                         Icons.home_filled,
                         color: FlutterFlowTheme.of(context).primaryText,
-                        size: 30,
+                        size: 40,
                       ),
                       onPressed: () {
                         print('IconButton pressed ...');
@@ -91,10 +90,10 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                       borderRadius: 30,
                       borderWidth: 1,
                       buttonSize: 60,
-                      icon: FaIcon(
-                        FontAwesomeIcons.boxes,
+                      icon: Icon(
+                        Icons.grid_view,
                         color: Color(0xFFD9D9D9),
-                        size: 30,
+                        size: 40,
                       ),
                       onPressed: () {
                         print('IconButton pressed ...');
@@ -139,7 +138,7 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                       icon: Icon(
                         Icons.chat_bubble_outline_rounded,
                         color: Color(0xFFD9D9D9),
-                        size: 30,
+                        size: 40,
                       ),
                       onPressed: () {
                         print('IconButton pressed ...');
@@ -161,7 +160,7 @@ class _NavbarWidgetState extends State<NavbarWidget> {
                       icon: Icon(
                         Icons.person,
                         color: Color(0xFFD9D9D9),
-                        size: 30,
+                        size: 40,
                       ),
                       onPressed: () {
                         print('IconButton pressed ...');

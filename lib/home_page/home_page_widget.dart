@@ -1,3 +1,4 @@
+import '../components/products_widget.dart';
 import '../flutter_flow/flutter_flow_autocomplete_options_list.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
@@ -294,7 +295,16 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
-                  children: [],
+                  children: [
+                    Container(
+                      height: 200,
+                      child: wrapWithModel(
+                        model: _model.productsModel,
+                        updateCallback: () => setState(() {}),
+                        child: ProductsWidget(),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),

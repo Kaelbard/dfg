@@ -1,3 +1,4 @@
+import '../components/products_widget.dart';
 import '../flutter_flow/flutter_flow_autocomplete_options_list.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
@@ -14,10 +15,14 @@ class HomePageModel extends FlutterFlowModel {
   TextEditingController? textController;
   String? textFieldSelectedOption;
   String? Function(BuildContext, String?)? textControllerValidator;
+  // Model for products component.
+  late ProductsModel productsModel;
 
   /// Initialization and disposal methods.
 
-  void initState(BuildContext context) {}
+  void initState(BuildContext context) {
+    productsModel = createModel(context, () => ProductsModel());
+  }
 
   void dispose() {}
 
