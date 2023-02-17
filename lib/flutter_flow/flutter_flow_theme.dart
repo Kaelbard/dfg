@@ -19,6 +19,27 @@ abstract class FlutterFlowTheme {
 
   late Color primaryBtnText;
   late Color lineColor;
+  late Color grayIcon;
+  late Color gray200;
+  late Color gray600;
+  late Color black600;
+  late Color tertiary400;
+  late Color textColor;
+  late Color btnText;
+  late Color customColor3;
+  late Color customColor4;
+  late Color white;
+  late Color background;
+  late Color backgroundComponents;
+  late Color primary600;
+  late Color secondary600;
+  late Color tertiary600;
+  late Color darkBGstatic;
+  late Color secondary30;
+  late Color overlay0;
+  late Color overlay;
+  late Color primary30;
+  late Color customColor1;
 
   String get title1Family => typography.title1Family;
   TextStyle get title1 => typography.title1;
@@ -50,6 +71,27 @@ class LightModeTheme extends FlutterFlowTheme {
 
   late Color primaryBtnText = Color(0xFFFFFFFF);
   late Color lineColor = Color(0xFFE0E3E7);
+  late Color grayIcon = Color(0xFF95A1AC);
+  late Color gray200 = Color(0xFFDBE2E7);
+  late Color gray600 = Color(0xFF262D34);
+  late Color black600 = Color(0xFF090F13);
+  late Color tertiary400 = Color(0xFF39D2C0);
+  late Color textColor = Color(0xFF1E2429);
+  late Color btnText = Color(0xFFFFFFFF);
+  late Color customColor3 = Color(0xFFDF3F3F);
+  late Color customColor4 = Color(0xFF090F13);
+  late Color white = Color(0xFFFFFFFF);
+  late Color background = Color(0xFF1D2429);
+  late Color backgroundComponents = Color(0xFF1D2428);
+  late Color primary600 = Color(0xFF336A4A);
+  late Color secondary600 = Color(0xFF6D604A);
+  late Color tertiary600 = Color(0xFF0C2533);
+  late Color darkBGstatic = Color(0xFF0D1E23);
+  late Color secondary30 = Color(0x4D928163);
+  late Color overlay0 = Color(0x00FFFFFF);
+  late Color overlay = Color(0xB2FFFFFF);
+  late Color primary30 = Color(0x4D4B986C);
+  late Color customColor1 = Color(0xFF2FB73C);
 }
 
 abstract class Typography {

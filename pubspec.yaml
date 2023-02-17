@@ -37,10 +37,11 @@ dependencies:
   intl: 0.17.0
   json_path: 0.4.1
   page_transition: 2.0.4
+  percent_indicator: 4.2.2
   provider: 6.0.4
   shared_preferences: 2.0.15
+  smooth_page_indicator: 1.0.0+2
   sqflite: 2.2.0+2
-  substring_highlight: 1.0.33
   timeago: 3.2.2
   url_launcher: 6.1.5
 
@@ -50,9 +51,18 @@ dependencies:
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
+  flutter_launcher_icons: 0.9.3
 
   flutter_test:
     sdk: flutter
+
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: 'assets/images/app_launcher_icon.png'
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
