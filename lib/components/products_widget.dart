@@ -154,22 +154,15 @@ class _ProductsWidgetState extends State<ProductsWidget> {
                                                                 .fromSTEB(
                                                                     4, 4, 4, 4),
                                                         child: Text(
-                                                          formatNumber(
-                                                            (DfgCall.price(
-                                                              listViewDfgResponse
-                                                                  .jsonBody,
-                                                            ) as List)
-                                                                .map<String>((s) =>
-                                                                    s.toString())
-                                                                .toList()[bodyIndex],
-                                                            formatType:
-                                                                FormatType
-                                                                    .decimal,
-                                                            decimalType:
-                                                                DecimalType
-                                                                    .automatic,
-                                                            currency: 'R\$ ',
-                                                          ),
+                                                          (DfgCall.price(
+                                                            listViewDfgResponse
+                                                                .jsonBody,
+                                                          ) as List)
+                                                              .map<String>((s) =>
+                                                                  s.toString())
+                                                              .toList()[
+                                                                  bodyIndex]
+                                                              .toString(),
                                                           textAlign:
                                                               TextAlign.center,
                                                           style: FlutterFlowTheme

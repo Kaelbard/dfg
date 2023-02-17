@@ -68,16 +68,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'HomePage',
               path: 'homePage',
               builder: (context, params) => HomePageWidget(),
-            ),
-            FFRoute(
-              name: 'Welcome',
-              path: 'welcome',
-              builder: (context, params) => WelcomeWidget(),
-            ),
-            FFRoute(
-              name: 'produto',
-              path: 'produto',
-              builder: (context, params) => ProdutoWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),
