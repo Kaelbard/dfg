@@ -210,14 +210,14 @@ class DFGFeedbacksCall {
         r'''$[:].itemTitle''',
         true,
       );
-  static dynamic authorname(dynamic response) => getJsonField(
-        response,
-        r'''$[:].fbAuthorFormattedName''',
-        true,
-      );
   static dynamic itemlink(dynamic response) => getJsonField(
         response,
         r'''$[:].itemLink''',
+        true,
+      );
+  static dynamic user(dynamic response) => getJsonField(
+        response,
+        r'''$[:].buyerUsername''',
         true,
       );
 }
