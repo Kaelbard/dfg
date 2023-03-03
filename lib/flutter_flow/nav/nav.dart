@@ -36,8 +36,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                 child: Center(
                   child: Image.asset(
                     'assets/images/Logo_temporaria.png',
-                    width: 100,
-                    height: 100,
+                    width: 100.0,
+                    height: 100.0,
                     fit: BoxFit.contain,
                   ),
                 ),
@@ -55,8 +55,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                     child: Center(
                       child: Image.asset(
                         'assets/images/Logo_temporaria.png',
-                        width: 100,
-                        height: 100,
+                        width: 100.0,
+                        height: 100.0,
                         fit: BoxFit.contain,
                       ),
                     ),
@@ -68,6 +68,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'HomePage',
               path: 'homePage',
               builder: (context, params) => HomePageWidget(),
+            ),
+            FFRoute(
+              name: 'product',
+              path: 'product',
+              builder: (context, params) => ProductWidget(
+                itemID: params.getParam('itemID', ParamType.JSON),
+              ),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),

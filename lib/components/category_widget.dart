@@ -1,5 +1,5 @@
-import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -38,7 +38,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: AlignmentDirectional(0, 0),
+      alignment: AlignmentDirectional(0.0, 0.0),
       child: ListView(
         padding: EdgeInsets.zero,
         shrinkWrap: true,
@@ -51,7 +51,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(16, 8, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 0.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -59,17 +59,17 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                     children: [
                       Material(
                         color: Colors.transparent,
-                        elevation: 1,
+                        elevation: 1.0,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: Container(
-                          width: 70,
-                          height: 104,
+                          width: 70.0,
+                          height: 104.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -80,11 +80,11 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        8, 16, 8, 8),
+                                        8.0, 16.0, 8.0, 8.0),
                                     child: Icon(
                                       Icons.smartphone_outlined,
                                       color: Colors.black,
-                                      size: 50,
+                                      size: 50.0,
                                     ),
                                   ),
                                 ],
@@ -103,7 +103,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                             fontFamily: 'Inter',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
-                                            fontSize: 10,
+                                            fontSize: 10.0,
                                           ),
                                     ),
                                   ),
@@ -117,7 +117,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(8, 8, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 0.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -125,17 +125,17 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                     children: [
                       Material(
                         color: Colors.transparent,
-                        elevation: 1,
+                        elevation: 1.0,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: Container(
-                          width: 70,
-                          height: 104,
+                          width: 70.0,
+                          height: 104.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -146,11 +146,11 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        8, 16, 8, 8),
+                                        8.0, 16.0, 8.0, 8.0),
                                     child: Icon(
                                       Icons.directions_car_outlined,
                                       color: Colors.black,
-                                      size: 50,
+                                      size: 50.0,
                                     ),
                                   ),
                                 ],
@@ -169,7 +169,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                             fontFamily: 'Inter',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
-                                            fontSize: 10,
+                                            fontSize: 10.0,
                                           ),
                                     ),
                                   ),
@@ -183,7 +183,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(8, 8, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 0.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -191,17 +191,17 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                     children: [
                       Material(
                         color: Colors.transparent,
-                        elevation: 1,
+                        elevation: 1.0,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: Container(
-                          width: 70,
-                          height: 104,
+                          width: 70.0,
+                          height: 104.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -212,11 +212,11 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        8, 16, 8, 8),
+                                        8.0, 16.0, 8.0, 8.0),
                                     child: Icon(
                                       Icons.home_outlined,
                                       color: Colors.black,
-                                      size: 50,
+                                      size: 50.0,
                                     ),
                                   ),
                                 ],
@@ -235,7 +235,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                             fontFamily: 'Inter',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
-                                            fontSize: 10,
+                                            fontSize: 10.0,
                                           ),
                                     ),
                                   ),
@@ -249,7 +249,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(8, 8, 0, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 0.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -257,17 +257,17 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                     children: [
                       Material(
                         color: Colors.transparent,
-                        elevation: 1,
+                        elevation: 1.0,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: Container(
-                          width: 70,
-                          height: 104,
+                          width: 70.0,
+                          height: 104.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -278,11 +278,11 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        8, 16, 8, 8),
+                                        8.0, 16.0, 8.0, 8.0),
                                     child: Icon(
                                       Icons.videogame_asset_outlined,
                                       color: Colors.black,
-                                      size: 50,
+                                      size: 50.0,
                                     ),
                                   ),
                                 ],
@@ -301,7 +301,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                             fontFamily: 'Inter',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
-                                            fontSize: 10,
+                                            fontSize: 10.0,
                                           ),
                                     ),
                                   ),
@@ -315,7 +315,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(8, 8, 16, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 16.0, 0.0),
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -323,17 +323,17 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                     children: [
                       Material(
                         color: Colors.transparent,
-                        elevation: 1,
+                        elevation: 1.0,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: Container(
-                          width: 70,
-                          height: 104,
+                          width: 70.0,
+                          height: 104.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            borderRadius: BorderRadius.circular(10),
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -344,11 +344,11 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        8, 16, 8, 8),
+                                        8.0, 16.0, 8.0, 8.0),
                                     child: Icon(
                                       Icons.handyman,
                                       color: Colors.black,
-                                      size: 50,
+                                      size: 50.0,
                                     ),
                                   ),
                                 ],
@@ -367,7 +367,7 @@ class _CategoryWidgetState extends State<CategoryWidget> {
                                             fontFamily: 'Inter',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
-                                            fontSize: 10,
+                                            fontSize: 10.0,
                                           ),
                                     ),
                                   ),

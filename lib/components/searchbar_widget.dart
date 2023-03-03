@@ -1,5 +1,5 @@
-import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -40,19 +40,19 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
+      padding: EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 8.0),
       child: Material(
         color: Colors.transparent,
-        elevation: 1,
+        elevation: 1.0,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(20.0),
         ),
         child: Container(
           width: double.infinity,
-          height: 60,
+          height: 60.0,
           decoration: BoxDecoration(
             color: FlutterFlowTheme.of(context).secondaryBackground,
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(20.0),
           ),
           child: Column(
             mainAxisSize: MainAxisSize.max,
@@ -65,17 +65,18 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
                         child: Icon(
                           Icons.search,
                           color: FlutterFlowTheme.of(context).primaryColor,
-                          size: 16,
+                          size: 16.0,
                         ),
                       ),
                     ],
                   ),
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(8, 0, 0, 0),
+                    padding: EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 0.0),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -84,8 +85,8 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Container(
-                              width: 300,
-                              height: 40,
+                              width: 300.0,
+                              height: 40.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
@@ -96,7 +97,7 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Align(
-                                    alignment: AlignmentDirectional(0, 0),
+                                    alignment: AlignmentDirectional(0.0, 0.0),
                                     child: TextFormField(
                                       controller: _model.textController,
                                       autofocus: true,
@@ -107,13 +108,13 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                                             .bodyText2
                                             .override(
                                               fontFamily: 'Inter',
-                                              fontSize: 20,
+                                              fontSize: 20.0,
                                               fontWeight: FontWeight.w500,
                                             ),
                                         enabledBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
                                             color: Color(0x00000000),
-                                            width: 1,
+                                            width: 1.0,
                                           ),
                                           borderRadius: const BorderRadius.only(
                                             topLeft: Radius.circular(4.0),
@@ -123,7 +124,7 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                                         focusedBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
                                             color: Color(0x00000000),
-                                            width: 1,
+                                            width: 1.0,
                                           ),
                                           borderRadius: const BorderRadius.only(
                                             topLeft: Radius.circular(4.0),
@@ -133,7 +134,7 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                                         errorBorder: UnderlineInputBorder(
                                           borderSide: BorderSide(
                                             color: Color(0x00000000),
-                                            width: 1,
+                                            width: 1.0,
                                           ),
                                           borderRadius: const BorderRadius.only(
                                             topLeft: Radius.circular(4.0),
@@ -144,7 +145,7 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                                             UnderlineInputBorder(
                                           borderSide: BorderSide(
                                             color: Color(0x00000000),
-                                            width: 1,
+                                            width: 1.0,
                                           ),
                                           borderRadius: const BorderRadius.only(
                                             topLeft: Radius.circular(4.0),
@@ -156,7 +157,7 @@ class _SearchbarWidgetState extends State<SearchbarWidget> {
                                           .bodyText1
                                           .override(
                                             fontFamily: 'Inter',
-                                            fontSize: 16,
+                                            fontSize: 16.0,
                                           ),
                                       validator: _model.textControllerValidator
                                           .asValidator(context),

@@ -1,6 +1,6 @@
-import '../backend/api_requests/api_calls.dart';
-import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_util.dart';
+import '/backend/api_requests/api_calls.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -39,7 +39,7 @@ class _HighlightcardsWidgetState extends State<HighlightcardsWidget> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: AlignmentDirectional(0, 0),
+      alignment: AlignmentDirectional(0.0, 0.0),
       child: FutureBuilder<ApiCallResponse>(
         future: DFGHighlightcardsCall.call(),
         builder: (context, snapshot) {
@@ -47,8 +47,8 @@ class _HighlightcardsWidgetState extends State<HighlightcardsWidget> {
           if (!snapshot.hasData) {
             return Center(
               child: SizedBox(
-                width: 50,
-                height: 50,
+                width: 50.0,
+                height: 50.0,
                 child: CircularProgressIndicator(
                   color: FlutterFlowTheme.of(context).primaryColor,
                 ),
@@ -65,10 +65,10 @@ class _HighlightcardsWidgetState extends State<HighlightcardsWidget> {
                   .take(3)
                   .toList();
               return Container(
-                width: 250,
-                height: 250,
+                width: 250.0,
+                height: 250.0,
                 child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 8.0, 0.0),
                   child: PageView.builder(
                     controller: _model.pageViewController ??= PageController(
                         initialPage: min(0, imagehighlight.length - 1)),
@@ -83,19 +83,19 @@ class _HighlightcardsWidgetState extends State<HighlightcardsWidget> {
                         children: [
                           Material(
                             color: Colors.transparent,
-                            elevation: 1,
+                            elevation: 1.0,
                             child: Container(
-                              width: 100,
-                              height: 100,
+                              width: 100.0,
+                              height: 100.0,
                               decoration: BoxDecoration(),
                               child: ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(10.0),
                                 child: Image.network(
                                   DFGHighlightcardsCall.imagem(
                                     pageViewDFGHighlightcardsResponse.jsonBody,
                                   )[imagehighlightIndex],
-                                  width: 100,
-                                  height: 100,
+                                  width: 100.0,
+                                  height: 100.0,
                                   fit: BoxFit.cover,
                                 ),
                               ),

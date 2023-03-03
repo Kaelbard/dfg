@@ -121,49 +121,49 @@ class ThemeTypography extends Typography {
         'Inter',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
-        fontSize: 24,
+        fontSize: 24.0,
       );
   String get title2Family => 'Inter';
   TextStyle get title2 => GoogleFonts.getFont(
         'Inter',
         color: theme.secondaryText,
         fontWeight: FontWeight.w600,
-        fontSize: 22,
+        fontSize: 22.0,
       );
   String get title3Family => 'Inter';
   TextStyle get title3 => GoogleFonts.getFont(
         'Inter',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
-        fontSize: 20,
+        fontSize: 20.0,
       );
   String get subtitle1Family => 'Inter';
   TextStyle get subtitle1 => GoogleFonts.getFont(
         'Inter',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
-        fontSize: 18,
+        fontSize: 18.0,
       );
   String get subtitle2Family => 'Inter';
   TextStyle get subtitle2 => GoogleFonts.getFont(
         'Inter',
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 16,
+        fontSize: 16.0,
       );
   String get bodyText1Family => 'Inter';
   TextStyle get bodyText1 => GoogleFonts.getFont(
         'Inter',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 14,
+        fontSize: 14.0,
       );
   String get bodyText2Family => 'Inter';
   TextStyle get bodyText2 => GoogleFonts.getFont(
         'Inter',
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 14,
+        fontSize: 14.0,
       );
 }
 
